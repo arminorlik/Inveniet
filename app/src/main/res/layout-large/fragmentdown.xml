@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:orientation="horizontal"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+
+                >
+    <LinearLayout
+        android:id="@+id/LlLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-13dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="80dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_divider"
+            />
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_below="@+id/LlLine"
+    android:layout_marginTop="-7dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="4"
+    android:orientation="horizontal"
+    android:id="@+id/Lticons"
+
+    android:layout_alignParentBottom="false"
+    android:layout_centerVertical="true">
+
+    <ImageButton
+        android:id="@+id/btnOpis"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/ic_action_book"/>
+
+        <ImageButton
+        android:id="@+id/btnPromo"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/ic_action_star_10"/>
+
+    <ImageButton
+        android:id="@+id/btnCzynne"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/ic_action_clock"/>
+
+    <ImageButton
+        android:id="@+id/btnKontakt"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="40dp"
+
+        android:background="@drawable/ic_action_phone_start"/>
+
+
+</LinearLayout>
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+
+        android:layout_below="@+id/Lticons"
+        android:orientation="horizontal"
+        android:background="#ffffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opis"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textColor="#ff000000"
+            android:gravity="right"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Promocja"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textColor="#ff000000"
+            android:gravity="right"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Czynne"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textColor="#ff000000"
+            android:gravity="right"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kontakt"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textColor="#ff000000"
+            android:gravity="right"
+            android:layout_marginRight="10dp"/>
+
+
+
+        </LinearLayout>
+-->
+    </RelativeLayout>

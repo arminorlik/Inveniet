@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProductTour</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_product_tour">product tour</string>
+    <string name="welcom_head_01">Z InVenient</string>
+    <string name="welcom_content_01">Gdziekolwiek jesteś, zawsze znajdziesz coś dla siebie!</string>
+    <string name="welcom_head_02">Dzięki InVenient</string>
+    <string name="welcom_content_02">dowiesz się w którym klubie jest impreza...</string>
+    <string name="welcom_head_2">Dzięki InVenient</string>
+    <string name="welcom_content_2">znajdziesz najbliższą restaurację lub pub!</string>
+    <string name="welcom_head_03">Witamy w aplikacji InVenient!</string>
+    <string name="welcom_content_03"></string>
+    <string name="welcom_head_04">Edit Excel spreadsheets</string>
+    <string name="welcom_content_04">Open, edit, and save Excel files - all within Sheets.</string>
+
+</resources>

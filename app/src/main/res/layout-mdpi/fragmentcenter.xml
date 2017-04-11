@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:isScrollContainer="true"
+            android:overScrollMode="always"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+
+            android:scrollbars="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+
+
+        >
+
+
+        <info.SlideShowView
+            android:id="@+id/IvCenter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            />
+
+
+        <ImageView
+            android:id="@+id/IvLine"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/line"/>
+
+        <TextView
+            android:id="@+id/tvNazwa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:text=""
+            android:textColor="#ffff950e"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/IvLine2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/line"/>
+
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Opis"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20dp"/>
+
+
+
+        <TextView
+            android:id="@+id/tvInfoMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text=""
+            android:textColor="#FFFFFFFF"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
